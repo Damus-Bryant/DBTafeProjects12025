@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/first"
+        android:adjustViewBounds="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivImageFile"/>
+
+    <TableLayout
+        android:stretchColumns="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="ID"/>
+            <EditText
+                android:textSize="30sp"
+                android:text="1"
+                android:enabled="false"
+                android:id="@+id/etID"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Name"/>
+            <EditText
+                android:textSize="30sp"
+                android:text="Damus Bryant"
+                android:id="@+id/etName"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Address"/>
+            <EditText
+                android:textSize="30sp"
+                android:text="Sydney"
+                android:id="@+id/etAddress"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Email"/>
+            <EditText
+                android:textSize="30sp"
+                android:text="damus.bryant@gmail.com"
+                android:id="@+id/etEmail"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="ImageFIle"/>
+            <EditText
+                android:textSize="30sp"
+                android:text="first"
+                android:id="@+id/etImageFile"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Mobile"/>
+            <EditText
+                android:textSize="30sp"
+                android:text="0412345678"
+                android:id="@+id/etMobile"/>
+        </TableRow>
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+
+    </TableLayout>
+
+</LinearLayout>
+

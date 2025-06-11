@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.example.dbtafeprojects12025"
     compileSdk = 35
+    buildFeatures{
+        viewBinding=true
+    }
 
     defaultConfig {
         applicationId = "com.example.dbtafeprojects12025"
